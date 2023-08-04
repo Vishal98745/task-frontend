@@ -1,0 +1,61 @@
+.task-manager {
+    padding: 20px;
+  }
+  .task-manager h1{
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea,
+  button {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  
+  .button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: rgb(23, 140, 140);
+  }
+  .btn1{
+    background-color: rgb(87, 128, 5);
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .btn1:hover{
+    background-color: rgb(6, 195, 154);
+  }
+  .btn2{
+    background-color: rgb(128, 42, 5);
+    color: white;
+    margin-right: 10px;
+    padding:10px 25px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .btn2:hover{
+    background-color: red;
+  }
